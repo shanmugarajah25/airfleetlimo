@@ -1,0 +1,4642 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.main-top {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.top-contact {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #FFFFFF;
+}
+
+.top-contact a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    padding: 0.3rem;
+}
+
+.top-contact a span {
+    margin-left: 1rem;
+}
+
+
+.navbar {
+    padding: 1rem 7.0875rem;
+    background: transparent !important;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    background: #000000 !important;
+}
+
+.navbar-content {
+    flex-grow: unset;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar-brand img {
+    width: 12.11875rem;
+}
+
+.nav-item .active {
+    font-size: 1.05rem;
+    color: #FFFFFF !important;
+}
+
+
+.nav-item a {
+    color: #8C8C8C !important;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.26875rem;
+}
+
+.nav-item a:hover {
+    color: #FFFFFF !important;
+}
+
+.navbar .dropdown-menu {
+    background: #FF1C21;
+    border-radius: unset;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #FFFFFF !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background: #000000 !important;
+}
+
+.nav-item .Reservations {
+    background: #FF1C21;
+    color: #FFFFFF !important;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.nav-item .Reservations:hover {
+    background: #FFFFFF;
+    color: #FF1C21 !important;
+}
+
+.home-banner-content .home-banner-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-banner-content .head {
+    margin-left: 7.0875rem;
+    padding-top: 7.5rem;
+}
+
+.home-banner-content .head h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.9375rem;
+    line-height: 4.6375rem;
+    color: #FFFFFF !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-banner-content .img-content {
+    margin-top: 2.2rem;
+    margin-left: 10.9375rem;
+}
+
+.home-banner-content .img-content .heading h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.225rem;
+    line-height: 1.96875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.home-banner-content .img-content .content {
+    margin-left: 5.38125rem;
+}
+
+.home-banner-content .img-content .content .num-content .number:nth-child(2) {
+    margin-left: 1.5rem;
+}
+
+.home-banner-content .img-content .content strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-banner-content .img-content .content span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #828282;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Hind', sans-serif;
+}
+
+.home-banner-content .img-content .content .para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #BDBDBD;
+    font-family: 'Hind', sans-serif;
+    margin-top: 1.1375rem;
+}
+
+.home-banner-content .img-content .content .banner-btn {
+    margin-top: 1.09375rem;
+}
+
+.home-banner-content .img-content .content .banner-btn a {
+    text-decoration: none;
+    background: #FF1C21;
+    padding: 0.5rem;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.home-banner-content .img-content .content .banner-btn a:hover {
+    background: #FF1C21;
+    color: #FFFFFF;
+}
+
+.home-banner-content .img-content .content .banner-btn a i {
+    transform: rotate(30deg);
+}
+
+.banner-arrow {
+    margin-top: -10.8rem;
+    padding-left: 7.5rem;
+}
+
+.banner-arrow p {
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-arrow img {
+    width: 2.1875rem;
+    margin-left: 7.0875rem;
+    margin-top: -3rem;
+}
+
+.home-banner-slider {
+    position: absolute;
+    height: 2.1875rem;
+    width: 100%;
+    background: #FF1C21;
+    bottom: 0;
+}
+
+.home-banner-slider p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Hind', sans-serif;
+    margin-top: 0.3rem;
+}
+
+.home-banner-slider i {
+    font-size: 0.5rem;
+    margin-top: -0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+
+.home-banner-slider .slider-home {
+    display: flex;
+    justify-content: center;
+}
+
+.ride {
+    margin-bottom: 5.25rem;
+}
+
+.ride-content {
+    padding: 0rem 6rem;
+}
+
+.ride-img {
+    position: relative;
+}
+
+.ride-img .box {
+    position: absolute;
+    width: 33.11875rem;
+    height: 22.4rem;
+    background: #FF1C21;
+    left: 45px;
+    top: -8px;
+    z-index: -1;
+}
+
+.ride-img img {
+    z-index: 1;
+    width: 35.74375rem;
+}
+
+.ride-para {
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+}
+
+.ride-para h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.28125rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ride-para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+}
+
+.ride-para a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+    background: #FF1C21;
+    padding: 0.6rem;
+    border: 1px solid #FF1C21;
+    transition: 0.5s;
+}
+
+.ride-para a:hover {
+    border: 1px solid #FF1C21;
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.ride-para a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.banner-bottom-content {
+    margin-top: 1.8rem;
+}
+
+.banner-bottom-content span {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+}
+
+.banner-bottom-content .logos{
+    margin-top: 0.5rem;
+}
+
+.banner-bottom-content img {
+    /* mix-blend-mode: luminosity;*/
+    cursor: pointer; 
+    width: 12.5rem;
+}
+
+.banner-bottom-content img:hover{
+    mix-blend-mode: unset;
+}
+
+.banner-bottom-content a:nth-child(2),
+.banner-bottom-content a:last-child{
+    margin-left: 2.5rem;
+}
+
+.our-service {
+    width: 100%;
+    min-height: 35.56875rem;
+    background: #FF1C21;
+    margin-bottom: 5.25rem;
+}
+
+.our-service .head h1 {
+    padding-top: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.our-service .box-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.63125rem;
+}
+
+.our-service .box-content .box {
+    width: 16.75625rem;
+    height: 18.59375rem;
+    background: #FFFFFF;
+    padding: 2.1875rem 1.3125rem;
+    margin: 0rem 0.4375rem;
+}
+
+.our-service .box-content .box h6 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.23125rem;
+    color: #191515;
+    height: 4.59375rem;
+}
+
+.our-service .box-content .box p {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+}
+
+.our-service .box-content .box a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FF1C21;
+    padding: 0.6rem;
+    font-family: 'Hind', sans-serif;
+    border: 1px solid #FF1C21;
+    transition: 0.5s;
+}
+
+.our-service .box-content .box a:hover {
+    border: 1px solid #FF1C21;
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.our-service .box-content .box a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.Our-limousine {
+    margin-bottom: 5.25rem;
+}
+
+.Our-limousine .head h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Our-limousine .head p {
+    width: 55.7375rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+}
+
+.Our-limousine .slider-cars {
+    margin-top: 1.3125rem;
+}
+
+.Our-limousine .slider-cars img {
+    width: 69.825rem !important;
+}
+
+.car-slider .owl-dots .owl-dot span {
+    margin-top: -3.5rem !important;
+    background: #FFFFFF !important;
+    opacity: 0.9;
+}
+
+.car-slider .owl-dots .owl-dot.active span,
+.car-slider .owl-dots .owl-dot:hover span {
+    background: #FF1C21 !important;
+}
+
+.calculator {
+    min-height: 42.1875rem;
+    background: #000000;
+    margin-bottom: 5.25rem;
+    padding-bottom: 1rem;
+}
+
+.cal-content {
+    padding: 0rem 7.0875rem;
+}
+
+.calculator .head h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.calculator .head h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.calculator .cal-content .content {
+    margin-top: 7.21875rem;
+}
+
+.cal-btns {
+    margin-top: 1.09375rem;
+    display: flex;
+    position: relative;
+}
+
+.cal-btns .tooltiptext {
+    visibility: hidden;
+    min-width: 210px;
+    background-color: #FFFFFF;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: -3rem;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cal-btns .button:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.tooltiptext i {
+    color: #000000;
+}
+
+.tooltiptext span {
+    color: #000000;
+}
+
+.tooltiptext span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tooltiptext .count {
+    margin: 0rem 0.1rem;
+}
+
+.tooltiptext .arrow1 {
+    position: absolute;
+    left: 23%;
+    top: -0.8rem;
+}
+
+.button {
+    float: left;
+    margin-right: 1.09375rem;
+    width: 3.5rem;
+    height: 2.1875rem;
+    position: relative;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.button label,
+.button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+    width: 428px;
+    height: 56px;
+}
+
+.button input[type="radio"]:checked+label {
+    background: #FF1C21;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.0rem;
+    line-height: 1.625rem;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button label {
+    cursor: pointer;
+    z-index: 90;
+    color: #FF1C21;
+    font-weight: 500;
+    font-size: 1.0rem;
+    line-height: 1.625rem;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background: #FF1C21;
+}
+
+.button:hover label {
+    color: #FFFFFF;
+}
+
+.cal-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.cal-input input {
+    /*margin-bottom: 1.09375rem;*/
+    height: 3.1875rem;
+    outline: none;
+    width: 21.875rem;
+    padding-left: 0.65625rem;
+}
+
+.cal-message {
+    padding-top: 0.5rem;
+}
+
+.cal-message span {
+    color: #FF1C21;
+}
+
+.cal-input label {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #FFFFFF;
+}
+
+.cal-input label strong {
+    color: #828282;
+}
+
+.cal-input label input {
+    height: unset;
+    width: unset;
+    margin-bottom: 0;
+}
+
+.cal-input label input[type="checkbox"] {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.cal-input input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #191515;
+    text-transform: capitalize;
+    font-family: 'Hind', sans-serif;
+}
+
+.cal-input input[type=text] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #191515;
+    
+    font-family: 'Hind', sans-serif;
+}
+
+
+.cal-check-btns {
+    margin-top: 0.8rem;
+    width: 21.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cal-check-btns button {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #FFFFFF;
+    color: #FF1C21;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.cal-check-btns button:first-child:hover {
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.cal-check-btns button:last-child:hover {
+    background: #FF1C21;
+    color: #FFFFFF;
+}
+
+.cal-check-btns button:first-child {
+    padding: 0.5rem 5rem !important;
+    background: #FF1C21;
+    color: #FFFFFF;
+}
+
+.cal-check-btns button i {
+    transform: rotate(30deg);
+    margin-left: 0.3rem;
+}
+
+.cal-price {
+    margin-top: 1.96875rem;
+}
+
+.cal-price h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.cal-book {
+    display: flex;
+}
+
+.cal-book input {
+    outline: none;
+    width: 21.875rem;
+    height: 3.5rem;
+    padding-left: 0.65625rem;
+}
+
+.cal-book input[type=text] {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.96875rem;
+    line-height: 3.15rem;
+    letter-spacing: 0.02em;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.cal-book input[type=text] {
+    pointer-events: none;
+}
+
+.cal-book a {
+    text-decoration: none;
+    padding: 1.2rem 2rem;
+    background: #FF1C21;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    /* line-height: 1.1375rem; */
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    margin-left: 1.3125rem;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cal-book a:hover {
+    background: #FFFFFF;
+    color: #FF1C21 !important;
+}
+
+.cal-book a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.cal-img img {
+    width: 33.25rem;
+    margin-top: 6.3rem;
+}
+
+.cal-img-para p {
+    float: right;
+    margin-right: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    color: #BDBDBD;
+}
+
+.customer-content {
+    margin-bottom: 6.5625rem;
+}
+
+.customer-content .head h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.96875rem;
+    line-height: 2.31875rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.slider-customer {
+    position: relative;
+    margin-top: 5.3375rem;
+}
+
+.customer-card .owl-carousel-img img {
+    width: 6.5625rem;
+    height: 6.5625rem;
+}
+
+.customer-card .para {
+    margin-top: 2.1875rem;
+    width: 26.3875rem;
+}
+
+.customer-card .para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-align: center;
+    color: #000000;
+    font-family: 'Hind', sans-serif;
+}
+
+.customer-card .name {
+    margin-top: 1.05rem;
+}
+
+.customer-card .name span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.customer .owl-nav button.owl-next {
+    position: absolute;
+    top: 0;
+    right: 16.9168125rem;
+    background: #000000;
+}
+
+.customer .owl-nav button.owl-prev {
+    position: absolute;
+    top: 0;
+    left: 16.9168125rem;
+    background: #000000;
+}
+
+.customer .owl-nav button.owl-next span,
+.customer .owl-nav button.owl-prev span {
+    font-size: 2rem;
+}
+
+.customer .owl-dots .owl-dot span {
+    background: #000000 !important;
+}
+
+.customer .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #FF1C21 !important;
+}
+
+.customer .owl-dots {
+    margin-top: 2.1rem;
+}
+
+.news-latter {
+    min-height: 18.2875rem;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-latter .head1 h1 {
+    padding: 0rem 2rem;
+    background: #FF1C21;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #FFFFFF;
+    margin-bottom: 1.3125rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.news-latter .head2 h6 {
+    background: #191515;
+    padding: 0.3rem 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.3125rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.testimonial-img {
+    object-fit: cover;
+    border-radius: 50%;
+    Width: 150px !important;
+    Height: 150px !important;
+}
+
+.news-latter .sub {
+    display: flex;
+}
+
+.news-latter .sub input {
+    outline: none;
+    width: 27.43125rem;
+    height: 2.1875rem;
+    padding-left: 1rem;
+    border: none;
+}
+
+.news-latter .sub button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FF1C21;
+    padding: 0rem 1rem;
+    margin-left: 0.875rem;
+    font-family: 'Hind', sans-serif;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.news-latter .sub button:hover {
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.news-latter .sub button i {
+    transform: rotate(30deg);
+    margin-left: 0.3rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8125rem;
+    padding: 0rem 7.0875rem;
+}
+
+.footer-content .company .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo a img {
+    width: 15.1375rem;
+}
+
+.footer-content h6 {
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    font-weight: 600;
+    color: #151B25;
+    margin-top: 0.4rem;
+    font-family: 'Hind', sans-serif;
+}
+
+.footer-content .company a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.53125rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+    transition: 0.5s;
+}
+
+.footer-content .company a:hover {
+    color: #FF1C21;
+}
+
+.footer-content .office p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.3125rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+    margin-bottom: 1.8rem;
+}
+
+.footer-content .office a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Hind', sans-serif;
+    padding: 0.4rem 2rem;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
+
+
+.footer-content .office a:hover,
+.footer-content .contact a:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.footer-content .office a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.footer-content .follow-us a {
+    color: #000000;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+    transition: 0.5s;
+}
+
+.footer-content .follow-us a:hover {
+    color: #FF1C21;
+}
+
+.footer-content .contact {
+    margin-top: 0.3rem;
+}
+
+.footer-content .contact a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #000000;
+    font-family: 'Hind', sans-serif;
+    border: 1px solid #000000;
+    padding: 0.2rem 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+}
+
+.footer-content .contact a:nth-child(3) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    background: #FF1C21;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+    border: 1px solid #FF1C21;
+    transition: 0.5s;
+}
+
+.footer-content .contact a:hover:nth-child(3) {
+    border: 1px solid #FF1C21;
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.footer-content .contact a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.footer .footer-bottom-box {
+    margin-top: 2rem;
+}
+
+.footer .footer-bottom-box p {
+    margin-bottom: 0;
+    text-align: center;
+    background: #FF1C21;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+    padding: 0.5rem;
+}
+
+.nav-box {
+    padding: 3.5rem 0rem;
+    background: #000000;
+    margin-bottom: 4.375rem;
+}
+
+.online {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.25rem;
+}
+
+.online-box {
+    width: 41.51875rem;
+    background: #FF1C21;
+    height: auto;
+    padding: 0rem 6.43125rem;
+}
+
+.online-box .head h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.96875rem;
+    line-height: 2.31875rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin: 1.3125rem 0rem;
+}
+
+.online-box .input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.1875rem;
+}
+
+.online-box .input label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.online-box .input input {
+    outline: none;
+    border: none;
+    width: 13.125rem;
+    height: 1.53125rem;
+    padding-left: 0.5rem;
+}
+
+.online-box .input select {
+    outline: none;
+    border: none;
+    width: 13.125rem;
+    height: 1.53125rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #828282;
+    padding-left: 0.65625rem;
+    font-family: 'Hind', sans-serif;
+}
+
+.online-box .input select option {
+    color: #000000;
+}
+
+.online-box .input .seleted {
+    display: none;
+}
+
+.online-box .input input[type=date] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #828282;
+    padding-left: 0.65625rem;
+    padding-right: 0.2rem;
+}
+
+.online-box .input input::placeholder {
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+}
+
+.input-radio {
+    display: flex;
+}
+
+.input-radio input {
+    width: 1rem !important;
+    margin-right: 0.9625rem;
+}
+
+.main-radio-btn {
+    width: 13.125rem;
+}
+
+.radio-btn {
+    margin-right: 1.3125rem;
+}
+
+.input-radio input[type=radio] {
+    accent-color: #000000;
+}
+
+.online-box .para p {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+}
+
+.req-radio {
+    display: flex;
+    margin-bottom: 2.1875rem;
+}
+
+.req-radio input {
+    width: 1rem !important;
+}
+
+.req-radio input[type=radio] {
+    accent-color: #000000;
+}
+
+.req-radio label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+    margin-left: 0.9625rem;
+}
+
+.req-radio input[type=checkbox] {
+    accent-color: #000000;
+}
+
+.online-box .submit-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.online-box .submit-btn button {
+    text-decoration: none;
+    text-align: center;
+    background: #FFFFFF;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+
+.online-box .submit-btn button:hover {
+    border: 1px solid #FFFFFF;
+    background: #FF1C21;
+    color: #FFFFFF;
+}
+
+.online-box .submit-btn button i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.online-box .submit-btn button:nth-child(2) {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.online-box .submit-btn button:hover:nth-child(2) {
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.about-us {
+    height: 35rem;
+    background: #000000;
+}
+
+.about-us .head {
+    padding-top: 13.3875rem;
+    margin-left: 7.0875rem;
+
+}
+
+.about-us .head h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.about-us .head h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9375rem;
+    line-height: 4.6375rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-us-img {
+    margin-bottom: 5.6rem;
+}
+
+.about-us-img img {
+    width: 100%;
+}
+
+.travel {
+    padding: 0rem 7.0875rem;
+    margin-bottom: 5.25rem;
+}
+
+.travel h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 2.75625rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.travel p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+}
+
+.travel .para2 {
+    margin-top: 6.55rem;
+}
+
+.presence {
+    min-height: 43.75rem;
+    background: #FF1C21;
+    margin-bottom: 6.3rem;
+    padding: 0rem 7.0875rem;
+}
+
+.presence .pre-img img {
+    width: 32.8125rem;
+    margin-top: 3.45625rem;
+}
+
+.presence .para {
+    margin-top: 5.8625rem;
+}
+
+.presence h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.presence p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #E0E0E0;
+    font-family: 'Hind', sans-serif;
+}
+
+.discipline {
+    padding: 0rem 7.0875rem;
+    margin-bottom: 5.03125rem;
+}
+
+.discipline h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.discipline p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+}
+
+.discipline .img img {
+    width: 33.11875rem;
+}
+
+.contact-banner {
+    min-height: 100vh;
+    background: #000000;
+}
+
+.contact-banner {
+    padding: 0rem 7.0875rem;
+}
+
+.contact-banner .head {
+    margin-top: 13.3875rem;
+}
+
+.contact-banner .head h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.contact-banner .head h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9375rem;
+    line-height: 4.6375rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-banner .location {
+    position: relative;
+}
+
+.contact-banner .location img {
+    width: 2.1875rem;
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+}
+
+.contact-banner .location a {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 12rem;
+}
+
+.contact-banner .location a h6 {
+    margin: 0;
+}
+
+.contact-banner .location h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.6625rem;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+}
+
+.contact-banner .location p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.contact-banner .social-link a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.contact-banner .social-link a:hover {
+    color: #FF1C21;
+}
+
+.contact-banner .boxes {
+    position: relative;
+    margin-top: 8.1375rem;
+}
+
+.contact-banner .boxes .box {
+    width: 34.475rem;
+    height: 29.3125rem;
+    background: #FFFFFF;
+}
+
+.contact-banner .boxes .contact-box {
+    position: absolute;
+    width: 34.475rem;
+    height: 29.3125rem;
+    background: #FF1C21;
+    top: 0.875rem;
+    left: 0.875rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-msg {
+    padding: 0rem 1rem;
+}
+
+.contact-banner .boxes .contact-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-banner .boxes .contact-box form input {
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid #FFFFFF;
+    margin-bottom: 1.44375rem;
+    width: 18.15625rem;
+    padding-bottom: 0.5rem;
+}
+
+.contact-banner .boxes .contact-box form input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.contact-banner .boxes .contact-box form input[type=text] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.contact-banner .boxes .contact-box form input[type=email] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+}
+
+.contact-banner .boxes .contact-box form button {
+    outline: none;
+    border: none;
+    width: 18.15625rem;
+    padding: 0.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+
+.contact-banner .boxes .contact-box form button:hover {
+    border: 1px solid #FFFFFF;
+    background: #FF1C21;
+    color: #FFFFFF;
+}
+
+.contact-banner .boxes .contact-box form button i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.map {
+    height: 31.5rem;
+}
+
+.our-fleet {
+    margin-bottom: 5.25rem;
+}
+
+.our-fleet-content .our-fleet-banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.our-fleet-content .head {
+    padding-top: 13.3875rem;
+    margin-left: 7.0875rem;
+}
+
+.our-fleet-content .head h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.our-fleet-content .head h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9375rem;
+    line-height: 4.6375rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.our-fleet-content .head p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #BDBDBD;
+    font-family: 'Hind', sans-serif;
+    margin-top: 1.1375rem;
+}
+
+.executive h1 {
+    margin-bottom: 1rem;
+}
+
+.fleet-img {
+    min-height: 32.9rem;
+    padding: 0rem 7.0875rem;
+    display: flex;
+    align-items: center;
+}
+
+.suv {
+    background: #FF1C21;
+}
+
+.fleet-img img {
+    width: 33.25rem;
+}
+
+.fleet-img .col-md-6 {
+    display: flex;
+    align-items: center;
+}
+
+.fleet-img h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.75625rem;
+    line-height: 3.28125rem;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fleet-img p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #E0E0E0;
+}
+
+.stretch {
+    background: #000000;
+}
+
+.passenger {
+    background: #FF1C21;
+}
+
+.coaches h1 {
+    color: #000000;
+}
+
+.coaches p {
+    color: #191515;
+}
+
+.fleet {
+    height: 35rem;
+    background: #000000;
+    margin-bottom: 5.25rem;
+}
+
+.fleet .head {
+    padding-top: 13.3875rem;
+    margin-left: 7.0875rem;
+}
+
+.fleet .head h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+    font-family: 'Hind', sans-serif;
+}
+
+.fleet .head h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9375rem;
+    line-height: 4.6375rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Raleway', sans-serif;
+}
+
+.fleet .head p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #BDBDBD;
+    font-family: 'Hind', sans-serif;
+    margin-top: 1.1375rem;
+}
+
+.call-us {
+    margin-bottom: 5.25rem;
+}
+
+.call-us h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.96875rem;
+    line-height: 2.31875rem;
+    color: #FF1C21;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2.1875rem;
+}
+
+.call-us p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+    font-family: 'Hind', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.call-us a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.1375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 0.8rem;
+    transition: 0.5s;
+}
+
+.call-us a:hover {
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.call-us a i {
+    transform: rotate(30deg);
+    margin-left: 0.2rem;
+}
+
+.airport-para {
+    margin-bottom: 4rem;
+}
+
+.airport-para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+}
+
+.airport-taxi-banner p {
+    width: 48.9125rem;
+}
+
+.airport-taxi-fleet {
+    background: #FF1C21;
+    margin-bottom: 5.25rem;
+}
+
+.airport-taxi-para p {
+    width: 69.825rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.1875rem;
+    letter-spacing: 0.02em;
+    color: #FF1C21;
+    font-family: 'Raleway', sans-serif;
+}
+
+.airport-taxi-para {
+    margin-bottom: 5.25rem;
+}
+
+.service-para {
+    margin-bottom: 5.25rem;
+}
+
+.service-para p {
+    width: 69.825rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    color: #191515;
+}
+
+.service-img {
+    margin-bottom: 5.25rem;
+}
+
+.service-img img {
+    width: 69.825rem;
+}
+
+.limo-service {
+    margin-bottom: 0;
+}
+
+.airport-limo p {
+    color: #191515;
+}
+
+.toronto {
+    background: #FF1C21;
+    margin-bottom: 5.25rem;
+}
+
+.toronto-para p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.1875rem;
+    letter-spacing: 0.02em;
+    color: #FF1C21;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5.25rem;
+}
+
+.error-head h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9331875rem;
+    line-height: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF1C21;
+}
+
+.error-head h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.21025rem;
+    line-height: 3.325rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.error-content {
+    margin-bottom: 5.73125rem;
+}
+
+.error-content strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.508625rem;
+    line-height: 24.7625rem;
+    color: #FF1C21;
+}
+
+.error-content p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9331875rem;
+    line-height: 1.75rem;
+    color: #000000;
+    margin-top: -2.5rem;
+    margin-bottom: 1.7rem;
+}
+
+.error-content .go-back-btn a {
+    text-decoration: none;
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.05rem;
+    color: #FFFFFF;
+    padding: 0.5rem 2.5rem;
+    transition: 0.5s;
+}
+
+.error-content .go-back-btn a:hover {
+    background: #FF1C21;
+}
+
+.footer-bottom-content {
+    padding-left: 5rem;
+    margin-top: 1rem;
+}
+
+.footer-bottom-content .box {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom-content h6 {
+    font-family: 'Hind', sans-serif;
+    font-size: 0.9625rem;
+    line-height: 1.575rem;
+    font-weight: 600;
+    color: #151B25;
+    margin-left: 0.5rem;
+}
+
+.footer-bottom-content .first-box a {
+    color: #000000 !important;
+}
+
+.footer-bottom-content .box a {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #7B7878;
+    border-right: 1px solid #7B7878;
+    padding: 0rem 0.5rem;
+    transition: 0.5s;
+}
+
+.footer-bottom-content .box a:hover {
+    color: #FF1C21 !important;
+}
+
+.top-banner {
+    min-height: 17.5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.top-banner h2 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.09375rem;
+    line-height: 1.26875rem;
+    text-transform: uppercase;
+    color: #FF1C21;
+}
+
+.top-banner h1 {
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.1rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ajax-contant {
+    padding: 0rem 14.13125rem;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.ajax-contant .boxes-contant {
+    margin-left: 1rem;
+}
+
+.ajax-contant .image-contant {
+    width: 34.51875rem;
+}
+
+.ajax-contant .image-contant img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.ajax-contant .image-contant p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.09375rem;
+    text-align: justify;
+    color: #191515;
+}
+
+.ajax-contant .image-contant p a {
+    color: #FF1C21;
+}
+
+.ajax-contant .top-box {
+    width: 20.3rem;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
+    background: #FFF0F0;
+}
+
+.ajax-contant .top-box h6 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.09375rem;
+    line-height: 1.26875rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.ajax-contant .top-box a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 0.83125rem;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    transition: 0.5s;
+}
+
+.ajax-contant .top-box a:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.ajax-contant .top-box a i {
+    margin: 0rem 0.5rem;
+}
+
+.ajax-contant .bottom-box {
+    width: 20.3rem;
+    padding: 2rem 2rem;
+    background: #000000;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.ajax-contant .bottom-box img {
+    width: 100%;
+}
+
+.ajax-contant .bottom-box h6 {
+    font-weight: 700;
+    font-size: 1.09375rem;
+    line-height: 1.26875rem;
+    color: #FFFFFF;
+    margin: 1.5rem 0rem;
+}
+
+.ajax-contant .bottom-box .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ajax-contant .bottom-box .box {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 1.5rem 0rem;
+}
+
+.ajax-contant .bottom-box .box strong:first-child {
+    font-size: 0.875rem;
+    line-height: 1.00625rem;
+    color: #000000;
+}
+
+.ajax-contant .bottom-box .box strong:last-child {
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 0.83125rem;
+    color: #4F4F4F;
+    margin-top: 0.5rem;
+}
+
+.ajax-contant .bottom-box .box strong span {
+    color: #FF1C21;
+}
+
+.ajax-contant .bottom-box a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 0.83125rem;
+    background: #FF1C21;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 0.8rem;
+    transition: 0.5s;
+}
+
+.ajax-contant .bottom-box a:hover {
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.ajax-banner {
+    min-height: 17.5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.ajax-banner .head p {
+    font-weight: 700;
+    font-size: 1.09375rem;
+    line-height: 2.1875rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+}
+
+.ajax-banner .head p span {
+    color: #FF1C21;
+}
+
+.ajax-banner .head a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.00625rem;
+    background: #FF1C21;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    padding-bottom: 0.7rem;
+    transition: 0.5s;
+}
+
+.ajax-banner .head a:hover {
+    background: #FFFFFF;
+    color: #FF1C21;
+}
+
+.map-content {
+    margin-left: 14.13125rem;
+    margin-bottom: 4rem;
+}
+
+.map-content .head h6 {
+    font-weight: 700;
+    font-size: 1.09375rem;
+    line-height: 1.26875rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.map-content .ajax-map {
+    width: 34.51875rem;
+    height: 13.2125rem;
+}
+
+.map-content .para {
+    width: 34.51875rem;
+    margin-top: 1.5rem;
+}
+
+.map-content .para p {
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.09375rem;
+    text-align: justify;
+    color: #191515;
+}
+
+.map-content .service h6 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.00625rem;
+    color: #191515;
+    margin-bottom: 1rem;
+}
+
+.map-content .box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.map-content .box img {
+    width: 1.09375rem;
+}
+
+.map-content .box p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 0.83125rem;
+    text-transform: uppercase;
+    color: #191515;
+    margin-left: 1rem;
+}
+
+.map-content .box p span {
+    color: #FF1C21;
+}
+
+.limo-para {
+    margin-bottom: 4rem;
+}
+
+.limo-para p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    color: #191515;
+}
+
+.limo-link {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 14.13125rem;
+    padding-right: 7rem;
+    margin-bottom: 5rem;
+}
+
+.limo-link a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    text-transform: capitalize;
+    color: #191515;
+    transition: 0.2s;
+    width: 14rem;
+}
+
+.limo-link i {
+    margin-right: 0.3rem;
+}
+
+.limo-link a:hover {
+    color: #FF1C21;
+    ;
+}
+
+.footer-bottom-content .first-box a:last-child {
+    border-right: none;
+}
+
+.footer-bottom-content .last-box a:last-child {
+    border-right: none;
+}
+
+.ajax-map iframe {
+    height: 100%;
+}
+
+
+
+
+@media(min-width:1900px) {
+
+    .top-contact a {
+        font-size: 1.35rem;
+        line-height: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        padding: 1.5rem 10.125rem;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .navbar-brand img {
+        width: 17.3125rem;
+    }
+
+    .nav-item .nav-link {
+        font-size: 1.125rem;
+        line-height: 1.8125rem;
+        margin-right: 0.5rem;
+    }
+
+    .nav-item .active {
+        font-size: 1.35rem;
+    }
+
+    .nav-item .Reservations {
+        padding: 0.6rem 1.8rem !important;
+    }
+
+    .navbar .dropdown-menu {
+        width: 14rem;
+    }
+
+    .navbar .dropdown-menu .dropdown-item {
+        margin: 0.5rem 0rem;
+        font-size: 1rem;
+    }
+
+    .home-banner-content .head {
+        margin-left: 10.125rem;
+        padding-top: 11rem;
+    }
+
+    .home-banner-content .head h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.625rem;
+        line-height: 6.625rem;
+        color: #FFFFFF !important;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .home-banner-content .img-content {
+        margin-top: 5rem;
+        margin-left: 15.625rem;
+    }
+
+    .home-banner-content .img-content .heading h3 {
+        font-size: 1.75rem;
+        line-height: 2.8125rem;
+    }
+
+    .home-banner-content .img-content .content {
+        margin-left: 7.6875rem;
+    }
+
+    .home-banner-content .img-content .content .num-content .number:nth-child(2) {
+        margin-left: 1.8rem;
+    }
+
+    .home-banner-content .img-content .content strong {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .home-banner-content .img-content .content span {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .home-banner-content .img-content .content .para p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 1.625rem;
+    }
+
+    .home-banner-content .img-content .content .banner-btn {
+        margin-top: 2.5rem;
+    }
+
+    .home-banner-content .img-content .content .banner-btn a {
+        padding: 1rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .banner-bottom-content {
+        margin-top: 3.2rem;
+    }
+
+    /* .banner-bottom-content span{
+        font-size: 0.85rem !important;
+    } */
+
+    .banner-bottom-content img{
+        width: unset;
+    }
+
+    .banner-bottom-content .logos{
+        margin-top: 1.5rem;
+    }
+
+    .banner-bottom-content a:nth-child(2), .banner-bottom-content a:last-child {
+        margin-left: 4.8rem;
+    }
+
+    .banner-arrow {
+        margin-top: -15.5rem;
+        padding-left: 11rem;
+    }
+
+    .banner-arrow p {
+        margin-left: 6rem;
+        margin-bottom: 4rem;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .banner-arrow img {
+        width: unset;
+        margin-left: 10.125rem;
+        margin-top: -3.5rem;
+    }
+
+    .home-banner-slider {
+        height: 3.125rem;
+    }
+
+    .home-banner-slider p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 0.5rem;
+    }
+
+    .ride {
+        margin-bottom: 7.5rem;
+    }
+
+    .ride-content {
+        padding: 0rem 8rem;
+    }
+
+
+    .ride-img .box {
+        width: 47.3125rem;
+        height: 32rem;
+        left: 60px;
+        top: -8px;
+    }
+
+    .ride-img img {
+        width: unset;
+    }
+
+    .ride-para {
+        margin-left: 2rem;
+        margin-top: 8rem;
+    }
+
+    .ride-para h1 {
+        font-size: 4rem;
+        line-height: 4.6875rem;
+    }
+
+    .ride-para p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .ride-para a {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 0.8rem;
+    }
+
+    .our-service {
+        height: 50.8125rem;
+        margin-bottom: 7.5rem;
+    }
+
+    .our-service .head h1 {
+        padding-top: 5rem;
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+    }
+
+    .our-service .box-content {
+        margin-top: 5.1875rem;
+    }
+
+    .our-service .box-content .box {
+        width: 23.9375rem;
+        height: 26.5625rem;
+        padding: 3.125rem 1.875rem;
+        margin: 0rem 0.625rem;
+    }
+
+    .our-service .box-content .box h6 {
+        font-size: 2rem;
+        line-height: 3.1875rem;
+        height: 6.5625rem;
+    }
+
+    .our-service .box-content .box p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .our-service .box-content .box a {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 1rem;
+    }
+
+    .our-service .box-content .box a i {
+        transform: rotate(30deg);
+        margin-left: 0.2rem;
+    }
+
+
+    .Our-limousine {
+        margin-bottom: 7.5rem;
+    }
+
+    .Our-limousine .head h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+    }
+
+    .Our-limousine .head p {
+        width: 79.625rem;
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .Our-limousine .slider-cars {
+        margin-top: 1.875rem;
+    }
+
+    .Our-limousine .slider-cars img {
+        width: 99.75rem !important;
+    }
+
+    .car-slider .owl-dots .owl-dot span {
+        margin-top: -4rem !important;
+    }
+
+    .calculator {
+        height: 63.125rem;
+        margin-bottom: 7.5rem;
+    }
+
+    .cal-content {
+        padding: 0rem 10.125rem;
+    }
+
+    .calculator .head h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+    }
+
+    .calculator .head h6 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .calculator .cal-content .content {
+        margin-top: 10.3125rem;
+    }
+
+    .cal-btns {
+        margin-top: 2rem;
+    }
+
+    .button {
+        margin-right: 1.5625rem;
+        width: 5rem;
+        height: 3.125rem;
+    }
+
+    .button input[type="radio"]:checked+label {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .button label {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+
+    .cal-input {
+        margin-top: 3.5rem;
+    }
+
+    .cal-input input {
+        /* margin-bottom: 1.5625rem;*/
+        height: 3.125rem;
+        width: 31.25rem;
+        padding-left: 0.9375rem;
+    }
+
+    .cal-input input::placeholder {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .cal-input input[type=text] {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .cal-input label {
+        font-size: 1.2rem;
+    }
+
+    .cal-input label input[type="checkbox"] {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .cal-check-btns {
+        margin-top: 1rem;
+        width: 31.25rem;
+    }
+
+    .cal-check-btns button {
+        padding: 1rem 1.3rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .cal-check-btns button:first-child {
+        padding: 1rem 8rem;
+
+    }
+
+    .cal-price {
+        margin-top: 2.8125rem;
+    }
+
+    .cal-price h6 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .cal-book input {
+        width: 31.25rem;
+        height: 5rem;
+        padding-left: 0.9375rem;
+    }
+
+    .cal-book input[type=text] {
+        font-size: 2.8125rem;
+        line-height: 4.5rem;
+    }
+
+
+    .cal-book a {
+        padding: 1.8rem 3.5rem;
+        background: #FF1C21;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-left: 1.875rem;
+    }
+
+    .cal-book a i {
+        transform: rotate(30deg);
+        margin-left: 0.2rem;
+    }
+
+    .cal-img img {
+        width: unset;
+        margin-top: 9rem;
+    }
+
+    .cal-img-para p {
+        float: right;
+        margin-right: -1rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .customer-content {
+        margin-bottom: 9.375rem;
+    }
+
+    .customer-content .head h1 {
+        font-size: 2.8125rem;
+        line-height: 3.3125rem;
+    }
+
+    .slider-customer {
+        margin-top: 7.625rem;
+    }
+
+    .customer-card .owl-carousel-img img {
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+
+    .customer-card .para {
+        margin-top: 3.125rem;
+        width: 37.125rem;
+    }
+
+    .customer-card .para p {
+        font-size: 1.333125rem;
+        line-height: 2rem;
+    }
+
+    .customer-card .name {
+        margin-top: 1.5rem;
+    }
+
+    .customer-card .name span {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .customer .owl-nav button.owl-next {
+        right: 24.166875rem;
+    }
+
+    .customer .owl-nav button.owl-prev {
+        left: 24.166875rem;
+    }
+
+    .customerl .owl-nav button.owl-next span,
+    .customer .owl-nav button.owl-prev span {
+        font-size: 2.5rem;
+    }
+
+    .customer .owl-dots {
+        margin-top: 3rem;
+    }
+
+    .news-latter {
+        height: 26.125rem;
+    }
+
+    .news-latter .head1 h1 {
+        padding: 0rem 2.5rem;
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .news-latter .head2 h6 {
+        padding: 0.5rem 0.8rem;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .news-latter .sub input {
+        width: 39.1875rem;
+        height: 3.125rem;
+        padding-left: 1rem;
+    }
+
+    .news-latter .sub button {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 0rem 1rem;
+        margin-left: 1.25rem;
+    }
+
+    .footer-logo a img {
+        width: 21.625rem;
+    }
+
+    .footer-content h6 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 0.6rem;
+    }
+
+    .footer-content .company a {
+        font-size: 1rem;
+        line-height: 2.1875rem;
+
+    }
+
+
+    .footer-content .office p {
+        font-size: 1rem;
+        line-height: 1.875rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .footer-content .office a {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 0.6rem 3rem;
+    }
+
+    .footer-content .follow-us a {
+        font-size: 1.8rem;
+        margin-right: 0.8rem;
+    }
+
+    .footer-content .contact {
+        margin-top: 0.8rem;
+    }
+
+    .footer-content .contact a {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        padding: 0.2rem 1.5rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .footer-content .contact a:nth-child(3) {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .footer .footer-bottom-box {
+        margin-top: 2.5rem;
+    }
+
+    .footer .footer-bottom-box p {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 0.8rem;
+    }
+
+    .nav-box {
+        padding: 4.5rem 0rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .online {
+        margin-bottom: 7.5rem;
+    }
+
+    .online-box {
+        width: 59.3125rem;
+        padding: 0rem 9.125rem;
+    }
+
+    .online-box .head h3 {
+        font-size: 2.8125rem;
+        line-height: 3.3125rem;
+        margin: 1.875rem 0rem;
+    }
+
+    .online-box .input {
+        margin-bottom: 3.125rem;
+    }
+
+    .online-box .input label {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .online-box .input input {
+        width: 18.75rem;
+        height: 2.1875rem;
+        padding-left: 1rem;
+    }
+
+    .online-box .input select {
+        width: 18.75rem;
+        height: 2.1875rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding-left: 1rem;
+    }
+
+    .online-box .input input[type=date] {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding-left: 1rem;
+        padding-right: 0.3rem;
+    }
+
+    .online-box .input input::placeholder {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
+    .main-radio-btn {
+        width: 18.75rem;
+    }
+
+
+    .input-radio input {
+        width: 1.5rem !important;
+        margin-right: 1.375rem;
+    }
+
+
+    .radio-btn {
+        margin-right: 1.9375rem;
+    }
+
+    .online-box .para p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .req-radio {
+        margin-bottom: 3.125rem;
+    }
+
+    .req-radio input {
+        width: 1.5rem !important;
+    }
+
+    .req-radio label {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-left: 1.375rem;
+    }
+
+    .online-box .submit-btn button {
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 0.8rem;
+    }
+
+    .online-box .submit-btn button:nth-child(2) {
+        margin-bottom: 3rem;
+    }
+
+    .about-us {
+        height: 50rem;
+    }
+
+    .about-us .head {
+        padding-top: 19.125rem;
+        margin-left: 10.125rem;
+
+    }
+
+    .about-us .head h2 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .about-us .head h1 {
+        font-size: 5.625rem;
+        line-height: 6.625rem;
+    }
+
+    .about-us-img {
+        margin-bottom: 8rem;
+    }
+
+    .travel {
+        padding: 0rem 10.125rem;
+        margin-bottom: 7.5rem;
+    }
+
+    .travel h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .travel p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .travel .para2 {
+        margin-top: 10.8rem;
+    }
+
+    .presence {
+        height: 62.5rem;
+        margin-bottom: 9rem;
+        padding: 0rem 8rem;
+    }
+
+    .presence .pre-img img {
+        width: unset;
+        margin-top: 3.45625rem;
+    }
+
+    .presence .para {
+        margin-top: 8.375rem;
+    }
+
+    .presence h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .presence p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .discipline {
+        padding: 0rem 10.125rem;
+        margin-bottom: 7.1875rem;
+    }
+
+    .discipline h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+        margin-bottom: 2rem;
+        margin-top: 2.5rem;
+    }
+
+    .discipline p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .discipline .img img {
+        width: unset;
+    }
+
+    .contact-banner {
+        padding: 0rem 10.125rem;
+    }
+
+    .contact-banner .head {
+        margin-top: 19.125rem;
+    }
+
+    .contact-banner .head h2 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .contact-banner .head h1 {
+        font-size: 5.625rem;
+        line-height: 6.625rem;
+    }
+
+    .contact-banner .location h6 {
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-top: 3.6875rem;
+    }
+
+    .contact-banner .location p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 1rem;
+    }
+
+    .contact-banner .location a {
+        text-decoration: none;
+        position: absolute;
+        top: 0px;
+        left: 15rem;
+    }
+
+    .contact-banner .location img {
+        width: unset;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+
+    .contact-banner .social-link {
+        margin-top: 1.8rem;
+    }
+
+    .contact-banner .social-link a {
+        font-size: 2.5rem;
+        margin-right: 1.8rem;
+    }
+
+
+    .contact-banner .boxes {
+        margin-top: 11.625rem;
+    }
+
+    .contact-banner .boxes .box {
+        width: 49.25rem;
+        height: 41.875rem;
+    }
+
+    .contact-banner .boxes .contact-box {
+        width: 49.25rem;
+        height: 41.875rem;
+        top: 1.25rem;
+        left: 1.25rem;
+    }
+
+    .contact-msg {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .contact-banner .boxes .contact-box form input {
+        margin-bottom: 2.0625rem;
+        width: 25.9375rem;
+        padding-bottom: 1rem;
+    }
+
+    .contact-banner .boxes .contact-box form input::placeholder {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .contact-banner .boxes .contact-box form input[type=text] {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .contact-banner .boxes .contact-box form input[type=email] {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .contact-banner .boxes .contact-box form button {
+        width: 25.9375rem;
+        padding: 0.8rem;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-top: 0.5rem;
+    }
+
+    .map {
+        height: 45rem;
+    }
+
+    .our-fleet {
+        margin-bottom: 7.5rem;
+    }
+
+    .our-fleet-content .head {
+        padding-top: 19.125rem;
+        margin-left: 10.125rem;
+    }
+
+    .our-fleet-content .head h2 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .our-fleet-content .head h1 {
+        font-size: 5.625rem;
+        line-height: 6.625rem;
+    }
+
+    .our-fleet-content .head p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 2rem;
+    }
+
+    .fleet-img {
+        height: 47rem;
+        padding: 0rem 10.125rem;
+    }
+
+    .fleet-img img {
+        width: 47.5rem;
+    }
+
+    .fleet-img h1 {
+        font-size: 3.9375rem;
+        line-height: 4.6875rem;
+    }
+
+    .fleet-img p {
+
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .fleet {
+        height: 50rem;
+        margin-bottom: 7.5rem;
+    }
+
+    .fleet .head {
+        padding-top: 19.125rem;
+        margin-left: 10.125rem;
+    }
+
+    .fleet .head h2 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .fleet .head h1 {
+        font-size: 5.625rem;
+        line-height: 6.625rem;
+    }
+
+    .fleet .head p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-top: 2rem;
+    }
+
+    .call-us {
+        margin-bottom: 7.5rem;
+    }
+
+    .call-us h2 {
+        font-size: 2.8125rem;
+        line-height: 3.3125rem;
+        margin-bottom: 3.125rem;
+    }
+
+    .call-us p {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .call-us a {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        padding: 1.5rem;
+    }
+
+    .airport-para {
+        margin-bottom: 6rem;
+    }
+
+    .airport-para p {
+        font-size: 1.375rem;
+        line-height: 1.375rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .airport-taxi-banner p {
+        width: 69.875rem;
+    }
+
+    .airport-taxi-fleet {
+        margin-bottom: 7.5rem;
+    }
+
+    .airport-taxi-para p {
+        width: 99.75rem;
+        font-size: 2rem;
+        line-height: 3.125rem;
+    }
+
+    .airport-taxi-para {
+        margin-bottom: 7.5rem;
+    }
+
+    .service-para {
+        margin-bottom: 7.5rem;
+    }
+
+    .service-para p {
+        width: 99.75rem;
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .service-img img {
+        width: 99.75rem;
+    }
+
+    .limo-service {
+        margin-bottom: 0;
+    }
+
+    .toronto {
+        margin-bottom: 7.5rem;
+    }
+
+    .toronto-para p {
+        font-size: 2rem;
+        line-height: 3.125rem;
+        margin-bottom: 7.5rem;
+    }
+
+    .error-head h2 {
+        font-size: 1.333125rem;
+        line-height: 2rem;
+    }
+
+    .error-head h1 {
+        font-size: 3.1575rem;
+        line-height: 4.75rem;
+    }
+
+    .error-content {
+        margin-bottom: 8.1875rem;
+    }
+
+    .error-content strong {
+        font-size: 23.58375rem;
+        line-height: 35.375rem;
+    }
+
+    .error-content p {
+        font-size: 1.333125rem;
+        line-height: 2.5rem;
+        margin-top: -4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .error-content .go-back-btn a {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.8rem 3.5rem;
+    }
+
+    .footer-middle-content .contact .box span {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin-left: 0.8rem;
+    }
+
+    .footer-bottom-content {
+        padding-left: 10rem;
+        margin-top: 1.5rem;
+    }
+
+    .footer-bottom-content h6 {
+        font-size: 1.375rem;
+        line-height: 2.25rem;
+    }
+
+    .footer-bottom-content .box {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-bottom-content .box a {
+        font-size: 1.15rem;
+        line-height: 1rem;
+        padding: 0rem 0.5rem;
+    }
+
+    .top-banner {
+        min-height: 25rem;
+    }
+
+    .top-banner h2 {
+        font-size: 1.5625rem;
+        line-height: 1.8125rem;
+    }
+
+    .top-banner h1 {
+        font-size: 3rem;
+    }
+
+    .ajax-contant {
+        padding: 0rem 19.8rem;
+        display: flex;
+        margin-bottom: 5rem;
+    }
+
+    .ajax-contant .image-contant {
+        width: 49.3125rem;
+    }
+
+    .ajax-contant .image-contant img {
+        width: 100%;
+    }
+
+    .ajax-contant .image-contant p {
+        font-size: 1rem;
+        line-height: 1.5625rem;
+    }
+
+    .ajax-contant .top-box {
+        width: 29rem;
+        padding: 1.5rem 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .ajax-contant .top-box h6 {
+        font-size: 1.5625rem;
+        line-height: 1.8125rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .ajax-contant .top-box a {
+        font-size: 1.15rem;
+        line-height: 1.1875rem;
+        padding: 1.5rem 0rem;
+    }
+
+    .ajax-contant .bottom-box {
+        width: 29rem;
+        padding: 2.5rem 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .ajax-contant .bottom-box h6 {
+        font-size: 1.5625rem;
+        line-height: 1.8125rem;
+        margin: 1.5rem 0rem;
+    }
+
+    .ajax-contant .bottom-box .box strong:first-child {
+        font-size: 1.25rem;
+        line-height: 1.4375rem;
+    }
+
+    .ajax-contant .bottom-box .box strong:last-child {
+        font-weight: 600;
+        font-size: 1.15rem;
+        line-height: 1.1875rem;
+        margin-top: 0.8rem;
+    }
+
+    .ajax-contant .bottom-box a {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        padding: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .ajax-banner {
+        min-height: 25rem;
+        margin-bottom: 5rem;
+    }
+
+    .ajax-banner .head p {
+        font-size: 1.5625rem;
+        line-height: 3.125rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .ajax-banner .head a {
+        font-size: 1.25rem;
+        line-height: 1.4375rem;
+        padding: 0.8rem 2.5rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .map-content .head h6 {
+        font-size: 1.5625rem;
+        line-height: 1.8125rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .map-content .ajax-map {
+        width: 49.3125rem;
+        height: 18.875rem;
+    }
+
+    .map-content .para {
+        width: 49.3125rem;
+        margin-top: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .map-content .para p {
+        font-size: 1rem;
+        line-height: 1.5625rem;
+    }
+
+    .map-content .service h6 {
+        font-size: 1.25rem;
+        line-height: 1.4375rem;
+    }
+
+    .map-content .box img {
+        width: 1.5625rem;
+    }
+
+    .map-content .box p {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+
+    .limo-para p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+
+    .limo-link {
+        padding-left: 20.1875rem;
+        padding-right: 12rem;
+
+    }
+
+    .limo-link a {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 19rem;
+    }
+
+
+}
+
+@media(max-width:1200px) {
+    .home-banner-content .home-banner-img {
+        background-image: none !important;
+        background: #000000;
+        height: 65vh;
+        padding-bottom: 4rem;
+    }
+
+    .banner-bottom-content .logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-bottom-content a:nth-child(2), .banner-bottom-content a:last-child {
+        margin-left: 0;
+        margin: 0.8rem 0rem;
+    }
+
+    .home-banner-box .owl-dots {
+        display: none;
+    }
+
+    .ride-content {
+        padding: 0rem 1rem;
+    }
+
+    .ride-img .box {
+        display: none;
+    }
+
+    .ride-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ride-para {
+        margin-top: 0;
+    }
+
+    .our-service {
+        padding-bottom: 3rem;
+    }
+
+    .our-service .box-content {
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .our-service .box-content .box {
+        margin-bottom: 1rem;
+    }
+
+    .our-service .head h1 {
+        padding-top: 1rem;
+    }
+
+    .Our-limousine .head p {
+        padding: 0rem 1rem;
+    }
+
+    .cal-content {
+        padding: 0rem 1rem;
+    }
+
+    .cal-book {
+        flex-direction: column;
+    }
+
+    .cal-book a {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        width: 21.875rem;
+    }
+
+    .calculator .cal-content .content {
+        margin-top: 2rem;
+    }
+
+    .cal-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        padding: 0rem 1rem;
+    }
+
+    .travel {
+        padding: 0rem 1rem;
+    }
+
+    .presence {
+        padding: 0rem 1rem;
+    }
+
+    .presence .pre-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .discipline {
+        padding: 0rem 1rem;
+    }
+
+    .discipline .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-banner {
+        min-height: unset;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact-banner .boxes .box {
+        display: none;
+    }
+
+    .contact-banner .boxes .contact-box {
+        position: unset;
+        width: 100%;
+        height: auto;
+        padding: 2rem 0rem;
+    }
+
+    .our-fleet-content .our-fleet-banner {
+        background-image: none !important;
+        background: #000000;
+        height: auto !important;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .fleet-img {
+        padding: 0rem 1rem;
+    }
+
+    .fleet-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Our-limousine .slider-cars img {
+        width: 100% !important;
+    }
+
+    .airport-taxi-banner p {
+        width: auto;
+    }
+
+    .airport-taxi-para {
+        padding: 0rem 1rem;
+    }
+
+    .airport-taxi-para p {
+        width: auto;
+    }
+
+    .service-para {
+        padding: 0rem 1rem;
+    }
+
+    .service-para p {
+        width: auto;
+    }
+
+    .service-img {
+        padding: 0rem 1rem;
+    }
+
+    .service-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .toronto-para {
+        padding: 0rem 1rem;
+    }
+
+    .toronto-para p br {
+        display: none;
+    }
+
+    .footer-bottom-content {
+        padding: 0rem 1rem;
+    }
+
+    .footer-bottom-content .box {
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom-content .box a {
+        margin-bottom: 0.5rem;
+    }
+
+    .ajax-contant {
+        padding: 0rem 1rem;
+    }
+
+    .ajax-contant .image-contant {
+        margin-right: 1rem;
+    }
+
+    .ajax-banner {
+        padding: 2rem 1rem;
+    }
+
+    .map-content {
+        padding: 0rem 1rem;
+        margin-left: 0;
+    }
+
+    .limo-para {
+        padding: 0rem 1rem;
+    }
+
+    .limo-para p br {
+        display: none;
+    }
+
+    .limo-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+
+@media(max-width:992px) {
+    .navbar {
+        padding: 1rem 0rem;
+        background: #000000 !important;
+    }
+
+    .navbar-toggler {
+        background: #FFFFFF;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .nav-item a {
+        text-align: center;
+    }
+}
+
+@media(max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: clip;
+    }
+
+    .home-banner-content .home-banner-img {
+        background-image: none !important;
+        background: #000000;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    .banner-arrow {
+        display: none;
+    }
+
+    .home-banner-content .head {
+        margin-left: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 8.5rem;
+    }
+
+    .home-banner-content .head h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .home-banner-content .img-content {
+        margin-top: 1.5rem;
+        margin-left: 0;
+        padding: 0rem 1rem;
+        flex-direction: column;
+    }
+
+    .home-banner-content .img-content .heading h3 {
+        text-align: center;
+    }
+
+    .home-banner-content .num-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-banner-content .img-content .content {
+        margin-left: 0;
+    }
+
+    .home-banner-content .img-content .content strong {
+        text-align: center;
+    }
+
+    /* .home-banner-content .img-content .content .num-content .number:nth-child(1) {
+      margin-right: 4.5rem; 
+    } */
+
+    .home-banner-content .img-content .content .num-content .number:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .home-banner-content .img-content .content .para p {
+        text-align: center;
+    }
+
+    .home-banner-content .img-content .content .para p br {
+        display: none;
+    }
+
+    .home-banner-content .img-content .content .banner-btn a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-banner-box .owl-dots {
+        display: none;
+    }
+
+    .banner-bottom-content {
+        text-align: center;
+    }
+
+    .banner-bottom-content .logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-bottom-content img{
+        margin: 0.8rem 0rem;
+    }
+
+    .banner-bottom-content a:nth-child(2), .banner-bottom-content a:last-child {
+        margin-left: 0;
+    }
+
+    .ride {
+        margin-bottom: 3rem;
+    }
+
+    .ride-content {
+        padding: 0rem 1rem;
+    }
+
+    .ride-content .row {
+        flex-direction: column;
+    }
+
+    .ride-content .col-md-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .ride-img .box {
+        display: none;
+    }
+
+    .ride-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ride-para {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .ride-para h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .ride-para h1 br {
+        display: none;
+    }
+
+    .ride-para p {
+        text-align: justify;
+    }
+
+    .ride-para a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .our-service .box-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .our-service .head h1 {
+        padding-top: 1rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .our-service .box-content {
+        margin-top: 1rem;
+    }
+
+    .our-service {
+        margin-bottom: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .our-service .box-content .box {
+        margin-bottom: 1rem;
+    }
+
+    .Our-limousine .head h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .Our-limousine .head p {
+        width: auto;
+        padding: 0rem 1rem;
+        text-align: justify;
+    }
+
+    .Our-limousine .slider-cars img {
+        width: 100% !important;
+    }
+
+    .Our-limousine {
+        margin-bottom: 2rem;
+    }
+
+    .calculator {
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .cal-content {
+        padding: 0rem 1rem;
+    }
+
+    .cal-content .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cal-content .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .calculator .cal-content .content {
+        margin-top: 1.5rem;
+    }
+
+    .calculator .cal-content .content .head {
+        text-align: center;
+    }
+
+    .calculator .head h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .cal-btns {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cal-input {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cal-input input {
+        width: 100%;
+    }
+
+    .cal-check-btns {
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .cal-check-btns button:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .cal-book {
+        flex-direction: column;
+    }
+
+    .cal-price h6 {
+        text-align: center;
+    }
+
+    .cal-book a {
+        margin-left: 0;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cal-book input {
+        width: auto;
+        margin-bottom: 1rem;
+    }
+
+    .cal-img img {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .cal-img-para p {
+        margin-right: 1rem;
+    }
+
+    .cal-message {
+        text-align: center;
+    }
+
+    .customer-content {
+        padding: 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .slider-customer {
+        margin-top: 2rem;
+    }
+
+    .customer .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .customer .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .news-latter {
+        padding: 1rem 1rem;
+    }
+
+    .news-latter .head1 h1 {
+        padding: 0rem 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .news-latter .head2 h6 {
+        text-align: center;
+    }
+
+    .news-latter .sub input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .news-latter .sub {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .news-latter .sub button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+    }
+
+    .footer-content {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .footer .company {
+        margin-top: 0.5rem;
+    }
+
+    .footer .office {
+        margin-top: 0.5rem;
+    }
+
+    .footer .follow-us {
+        margin-top: 1.5rem;
+    }
+
+    .footer .contact {
+        margin-top: 1.5rem;
+    }
+
+    .footer .footer-bottom-box {
+        margin-top: 1rem;
+    }
+
+    .footer-bottom-content .box a {
+        padding: 0rem 0.3rem;
+    }
+
+    .about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+
+    .about-us .head {
+        padding-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-us .head h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .about-us-img {
+        margin-bottom: 2rem;
+    }
+
+    .travel {
+        padding: 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .travel h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .travel .para2 {
+        margin-top: 0;
+    }
+
+    .presence {
+        margin-bottom: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .presence .row {
+        flex-direction: column;
+    }
+
+    .presence .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .presence .pre-img img {
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+
+    .presence .para {
+        margin-top: 1rem;
+    }
+
+    .presence h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .discipline {
+        padding: 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .discipline .row {
+        flex-direction: column;
+    }
+
+    .discipline .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .discipline h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .discipline .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-banner {
+        min-height: unset;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact-banner .row {
+        flex-direction: column;
+    }
+
+    .contact-banner .col-md-6 {
+        padding: 0;
+        width: 100%;
+    }
+
+    .contact-banner .head {
+        margin-top: 6rem;
+        text-align: center;
+    }
+
+    .contact-banner .head h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .contact-banner .location h6 {
+        text-align: center;
+    }
+
+    .contact-banner .location p {
+        text-align: center;
+    }
+
+    .contact-banner .location a {
+        display: none;
+    }
+
+    .contact-banner .social-link {
+        text-align: center;
+    }
+
+    .contact-banner .boxes {
+        margin-top: 2rem;
+    }
+
+    .contact-banner .boxes .box {
+        display: none;
+    }
+
+    .contact-banner .boxes .contact-box {
+        position: unset;
+        width: 100%;
+    }
+
+    .contact-banner .boxes .contact-box form {
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .contact-banner .boxes .contact-box form input {
+        width: 100%;
+    }
+
+    .contact-banner .boxes .contact-box form button {
+        width: 100%;
+    }
+
+    .our-fleet {
+        margin-bottom: 2rem;
+    }
+
+    .our-fleet-content .our-fleet-banner {
+        background-image: none !important;
+        background: #000000;
+        height: auto !important;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .our-fleet-content .head {
+        padding-top: 6rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .our-fleet-content .head h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .our-fleet-content .head p br {
+        display: none;
+    }
+
+    .fleet-img {
+        padding: 1rem 1rem;
+    }
+
+    .fleet-img .row {
+        flex-direction: column;
+    }
+
+    .fleet-img .row .col-md-6 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .fleet-img h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .fleet-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fleet {
+        height: auto !important;
+        margin-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .fleet .head {
+        padding-top: 6rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .fleet .head h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .fleet .head p br {
+        display: none;
+    }
+
+    .call-us {
+        margin-bottom: 3rem;
+    }
+
+    .call-us h2 {
+        padding: 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .call-us p {
+        padding: 0rem 1rem;
+    }
+
+    .nav-box {
+        margin-bottom: 2rem;
+    }
+
+    .online {
+        margin-bottom: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .online-box {
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .online-box .input {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .online-box .input input {
+        width: 100%;
+    }
+
+    .online-box .input select {
+        width: 100%;
+    }
+
+    .airport-para {
+        padding: 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .airport-para p {
+        text-align: justify;
+    }
+
+    .airport-taxi-banner p {
+        width: auto;
+    }
+
+    .airport-taxi-para {
+        margin-bottom: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .airport-taxi-para p {
+        width: auto;
+        text-align: justify;
+    }
+
+    .airport-taxi-fleet {
+        margin-bottom: 2rem;
+    }
+
+    .service-para {
+        margin-bottom: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .service-para p {
+        width: auto;
+        text-align: justify;
+    }
+
+    .service-img {
+        margin-bottom: 2rem;
+        padding: 0rem 1rem;
+    }
+
+    .service-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .toronto {
+        margin-bottom: 2rem;
+    }
+
+    .toronto-para {
+        padding: 0rem 1rem;
+    }
+
+    .toronto-para p {
+        margin-bottom: 2rem;
+        text-align: justify;
+    }
+
+    .error-content {
+        margin-bottom: 5rem;
+    }
+
+    .error-content strong {
+        font-size: 50vw;
+    }
+
+    .error-content p {
+        padding: 0rem 1rem;
+    }
+
+    .top-contact a {
+        padding: 0.3rem 1rem;
+    }
+
+    .top-banner {
+        padding: 0rem 1rem;
+    }
+
+    .top-banner .head {
+        margin-top: 7rem;
+    }
+
+    .ajax-contant {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ajax-contant .image-contant {
+        width: auto;
+    }
+
+    .ajax-contant .image-contant {
+        margin-right: 0;
+    }
+
+    .ajax-contant .top-box {
+        width: auto;
+        padding: 1rem 1rem;
+    }
+
+    .ajax-contant .bottom-box {
+        width: auto;
+    }
+
+    .map-content .ajax-map {
+        width: auto;
+    }
+
+    .map-content .para {
+        width: auto;
+    }
+
+    .ajax-banner .head p br {
+        display: none;
+    }
+
+    .limo-link {
+        justify-content: center;
+    }
+
+    .limo-link a {
+        width: 10rem;
+    }
+
+    .ajax-contant .boxes-contant {
+        margin-left: 0rem;
+    }
+
+
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
